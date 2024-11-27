@@ -18,7 +18,7 @@ Before running a script, make sure you address the following preliminaries:
 * Install requirements: ``pip install -r requirements.txt``
 * [ToS and EDOS] Check `data` folder and unzip compressed folders.
 * Check model configurations in ``configurations/model.py``.
-* 
+* [Docker] Check and build `Dockerfile` to run the code in a docker container
 
 ## Reproducing our experiments
 

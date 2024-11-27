@@ -6,7 +6,7 @@ ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
 ENV LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/include/"
 
-COPY /gcap /gcap
-WORKDIR /gcap
+COPY /gcam /gcam
+WORKDIR /gcam
 
 RUN pip3 install -r requirements.txt

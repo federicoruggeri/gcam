@@ -175,6 +175,12 @@ python3 runnables/error_analysis_encoder.py        # confusion matrices reported
 python3 runnables/error_analysis_llm.py            # confusion matrices like Figure 3 and info reported in Section 6.2
 ```
 
+## Prompts
+All prompts are reported in LLMs-specific scripts in `runnables` folder.
+
+## Annotation Study Guidelines
+We report annotation guidelines for SAM and GCAM used for the subjectivity detection case study in `annotations` folder.
+
 ## Contact
 
 TBA
